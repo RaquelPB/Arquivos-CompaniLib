@@ -16,10 +16,36 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: rgb(4, 201, 184);
 }
 
+/* Header */
 nav .header{
+    display: flex;
     align-items: center;
     justify-content: center;
+    border: black solid;
+} 
+
+/* CompanyList */
+div .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box-company {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    border: black solid;
+}
+
+div .box .box-company img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid;
+    border-color: rgb(4, 201, 184);
+    border-radius: 100px;
 }

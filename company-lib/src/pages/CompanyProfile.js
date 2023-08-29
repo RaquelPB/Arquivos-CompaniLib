@@ -1,33 +1,32 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import '../App.css';
-
-const url = "http://localhost:3001/api/companies";
 
 const CompanyProfile = () => {
-  const [companies, setCompanies] = useState([]);
+  const { id } = useParams();
+  console.log(id);
+  const [company, setCompany] = useState(null);
 
   useEffect(() => {
-    axios.get(url)
+    axios.get(`http://localhost:3001/api/companies/${id}`)
       .then(response => {
-        setCompanies(response.data);
+        setCompany(response.data);
       })
       .catch(error => {
         console.error('Ocorreu um erro:', error);
       });
-  }, []);
+  }, [id]);
+
+  if (!company) {
+    return <div>Carregando...</div>;
+  }
 
   return (
     <div>
-      {companies.map(company => (
-        <div key={company.id}>
-          <h2>{company.empresa}</h2>
-          <img src={company.logo} alt={`Logo da ${company.empresa}`} />
-          <p>ID: {company.id}</p>
-          <p>Descrição: {company.descricao}</p>
-          <p>Contatos: {company.contatos}</p>
-        </div>
-      ))}
+      <img src={company.logo} alt={`Logo da ${company.empresa}`} />
+      <h2>{company.empresa}</h2>
+      <p><span>Descrição:</span>{company.descricao}</p>
+      <p><span>Contatos:</span> {company.contatos}</p>
     </div>
   );
 };

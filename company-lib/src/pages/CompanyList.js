@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../App.css';
+import { useNavigate } from 'react-router-dom';
 
 const url = "http://localhost:3001/api/companies";
 
 const CompanyList = () => {
   const [companies, setCompanies] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios.get(url)
@@ -17,12 +18,17 @@ const CompanyList = () => {
       });
   }, []);
 
+  const handleCompanyClick = (companyId) => {
+    navigate(`/companyProfile/${companyId}`);
+  };
+
   return (
-    <div>
+    <div className="box">
       {companies.map(company => (
-        <div key={company.id}>
-          <h2>{company.empresa}</h2>
+        <div className="box-company" key={company.id}>
           <img src={company.logo} alt={`Logo da ${company.empresa}`} />
+          <h2>{company.empresa}</h2>
+          <button onClick={() => handleCompanyClick(company.id)}>Mais Detalhes</button>
         </div>
       ))}
     </div>

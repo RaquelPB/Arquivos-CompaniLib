@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from "./pages/Header";
+import { Routes, Route } from 'react-router-dom';
 import CompanyList from './pages/CompanyList';
 import CompanyProfile from './pages/CompanyProfile';
 import './App.css';
@@ -12,10 +13,10 @@ class App extends Component {
           <Header />
         </div>
         <div className="CompanyList">
-          <CompanyList />
-        </div>
-        <div className="CompanyProfile">
-          <CompanyProfile />
+          <Routes>
+            <Route path="/" element={<CompanyList />} />
+            <Route path="/companyProfile/:id" element={<CompanyProfile />} />
+          </Routes>
         </div>
       </div>
     );
