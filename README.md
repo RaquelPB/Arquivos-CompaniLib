@@ -35,7 +35,7 @@ Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) insta
 
 *2 Navegue até a pasta do frontend:
  
->> cd frontend
+>> cd company-lib
 
 *3 Instale as dependências do frontend:
 
