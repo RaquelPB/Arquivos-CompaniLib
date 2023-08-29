@@ -17,7 +17,7 @@ Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) insta
 
 >> cd backend
 
-*3 Instale as dependências do frontend:
+*3 Instale as dependências do backend:
 
 >> npm install
 
