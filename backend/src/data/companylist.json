@@ -11,55 +11,55 @@
         "empresa": "Sorriso",
         "logo": "https://logospng.org/wp-content/uploads/creme-dental-sorriso.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(61) 2745-6522"
+        "contatos":"(61) 2745-6522  Email: contato@sorriso.com"
     },
     {
         "id": 3,
         "empresa": "Hiperfarma",
         "logo": "https://logospng.org/wp-content/uploads/hiperfarma-768x432.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(68) 3433-3357"
+        "contatos":"(68) 3433-3357 Email: contato@hiperfarma.com"
     },
     {
         "id": 4,
         "empresa": "Elma Chips",
         "logo": "https://logospng.org/wp-content/uploads/elma-chips.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(89) 2538-7467"
+        "contatos":"(89) 2538-7467 Email: contato@elmachips.com"
     },
     {
         "id": 5,
         "empresa": "Will Bank",
         "logo": "https://logospng.org/wp-content/uploads/will-bank.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(68) 2837-2816"
+        "contatos":"(68) 2837-2816 Email: contato@willbank.com"
     },
     {
         "id": 6,
         "empresa": "Next",
         "logo": "https://logospng.org/wp-content/uploads/banco-next.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(12) 2375-3713"
+        "contatos":"(12) 2375-3713 Email: contato@next.com"
     },
     {
         "id": 7,
         "empresa": "Livelo",
         "logo": "https://logospng.org/wp-content/uploads/livelo.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(12) 2375-3713"
+        "contatos":"(12) 2375-3713 Email: contato@livelo.com"
     },
     {
         "id": 8,
         "empresa": "Stone",
         "logo": "https://logospng.org/wp-content/uploads/stone.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(12) 2375-3713"
+        "contatos":"(12) 2375-3713 Email: contato@stone.com"
     },
     {
         "id": 9,
         "empresa": "Joven Pan",
         "logo": "https://logospng.org/wp-content/uploads/jovem-pan.png",
         "descricao":"Lorem ipsum dolor sit amet. Et sint reprehenderit aut autem autem et perspiciatis fuga? At magnam galisum 33 voluptas sint id quos dicta sit galisum ipsa ut veniam nulla? Aut labore vitae eum dolorem commodi et dolores ipsa et eaque reiciendis! Sit nemo architecto aut galisum quaerat sed nemo eligendi aut reiciendis debitis. Qui molestiae rerum est dolor nulla quo esse alias.",
-        "contatos":"(12) 2375-3713"
+        "contatos":"(12) 2375-3713 Email: contato@jovempan.com"
     }
 ]

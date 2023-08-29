@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# CompaniesLib App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de perfil de empresas que permite visualizar detalhes de empresas a partir de uma lista. O projeto consiste em um frontend em React e um backend em Node.js.
 
-## Available Scripts
+Como Executar Localmente
 
-In the project directory, you can run:
+Siga as etapas abaixo para executar o projeto localmente em sua máquina.
 
-### `npm start`
+Pré-requisitos
+Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Configuração do Backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*1 Abra uma janela de terminal.
 
-### `npm test`
+*2 Navegue até a pasta do backend:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+>> cd backend
 
-### `npm run build`
+*3 Instale as dependências do frontend:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>> npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*4 Inicie o servidor do backend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>> npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# O servidor backend estará sendo executado em http://localhost:3001/api/companies.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Configuração do Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*1 Abra uma nova janela de terminal.
 
-## Learn More
+*2 Navegue até a pasta do frontend:
+ 
+>> cd frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*3 Instale as dependências do frontend:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+>> npm install
 
-### Code Splitting
+*4 Inicie o aplicativo frontend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+>> npm start
 
-### Analyzing the Bundle Size
+# O aplicativo frontend estará sendo executado em http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Agora você pode abrir o navegador e acessar http://localhost:3000 para ver o aplicativo em ação.
 
-### Making a Progressive Web App
+* Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+//A página inicial exibe uma lista de empresas com seus logotipos e nomes.
 
-### Advanced Configuration
+//Ao clicar no botão "Mais Detalhes" de uma empresa, você será redirecionado para a página de perfil da empresa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+//Na página de perfil da empresa, você pode ver mais detalhes sobre a empresa, incluindo descrição e contatos.
 
-### Deployment
+//A descrição da empresa tem um botão "Mostrar Mais" que permite alternar entre a exibição completa e resumida da descrição.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Tecnologias Utilizadas
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>> Frontend: React, react-router-dom, react-icons, axios
+>> Backend: Node.js, Express

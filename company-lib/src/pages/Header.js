@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { FcFinePrint } from "react-icons/fc";
-import "../App.css"
+import "../App.css";
 
 const Header = () => {
     return (
-        <nav className="header">
-          <h2>
+        <nav className="headerBox">
+          <h2 class="typing-animation">
             <Link to="/"><FcFinePrint></FcFinePrint>CompaniesLib</Link>
           </h2>
         </nav>
